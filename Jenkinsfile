@@ -9,7 +9,7 @@ pipeline {
    stages {
        stage('Checkout') {
            steps {
-               git branch: 'main', url: 'https://github.com/YourUsername/SeleniumMavenProject.git'
+               git branch: 'main', url: 'https://github.com/pujakohale/DataDrivenProject.git'
            }
        }
 
